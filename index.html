@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stat Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Stat Master</h1>
+        <div class="question-area">
+            <h2 id="question">Press Start to begin!</h2>
+            <p id="dataset"></p>
+        </div>
+        <div class="input-area">
+            <input type="text" id="answer-input" placeholder="Your answer" />
+            <button id="submit-btn" disabled>Submit</button>
+        </div>
+        <div class="feedback" id="feedback"></div>
+        <div class="scoreboard">
+            <p>Score: <span id="score">0</span></p>
+            <p>Best Time: <span id="best-time">0</span>s</p>
+        </div>
+        <div class="button-container">
+            <button id="start-btn">Start Game</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
